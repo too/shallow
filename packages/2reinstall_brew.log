@@ -1,0 +1,810 @@
+
+
+(de) too@P2:~$ xargs brew install < ~/ws/shallow/packages/brew_list.txt
+Warning: coreutils 8.31 is already installed and up-to-date
+To reinstall 8.31, run `brew reinstall coreutils`
+Warning: gdbm 1.18.1 is already installed and up-to-date
+To reinstall 1.18.1, run `brew reinstall gdbm`
+Warning: icu4c 63.1 is already installed and up-to-date
+To reinstall 63.1, run `brew reinstall icu4c`
+Warning: openssl 1.0.2r is already installed and up-to-date
+To reinstall 1.0.2r, run `brew reinstall openssl`
+Warning: python 3.7.2_2 is already installed and up-to-date
+To reinstall 3.7.2_2, run `brew reinstall python`
+Warning: readline 8.0.0 is already installed and up-to-date
+To reinstall 8.0.0, run `brew reinstall readline`
+Warning: sqlite 3.27.2 is already installed and up-to-date
+To reinstall 3.27.2, run `brew reinstall sqlite`
+Warning: xz 5.2.4 is already installed and up-to-date
+To reinstall 5.2.4, run `brew reinstall xz`
+==> Installing dependencies for atk: gettext, libffi, pcre and glib
+==> Installing atk dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.19.8.1.mojave.bot
+######################################################################## 100.0%
+==> Pouring gettext-0.19.8.1.mojave.bottle.tar.gz
+==> Caveats
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.19.8.1: 1,935 files, 16.9MB
+==> Installing atk dependency: libffi
+==> Downloading https://homebrew.bintray.com/bottles/libffi-3.2.1.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring libffi-3.2.1.mojave.bottle.tar.gz
+==> Caveats
+libffi is keg-only, which means it was not symlinked into /usr/local,
+because some formulae require a newer version of libffi.
+
+For compilers to find libffi you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libffi/lib"
+
+==> Summary
+🍺  /usr/local/Cellar/libffi/3.2.1: 16 files, 296.8KB
+==> Installing atk dependency: pcre
+==> Downloading https://homebrew.bintray.com/bottles/pcre-8.43.mojave.bottle.tar
+######################################################################## 100.0%
+==> Pouring pcre-8.43.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pcre/8.43: 204 files, 5.5MB
+==> Installing atk dependency: glib
+==> Downloading https://homebrew.bintray.com/bottles/glib-2.60.0_1.mojave.bottle
+######################################################################## 100.0%
+==> Pouring glib-2.60.0_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/glib/2.60.0_1: 432 files, 15.3MB
+==> Installing atk
+==> Downloading https://homebrew.bintray.com/bottles/atk-2.32.0.mojave.bottle.ta
+######################################################################## 100.0%
+==> Pouring atk-2.32.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/atk/2.32.0: 144 files, 2.5MB
+==> Downloading https://homebrew.bintray.com/bottles/autoconf-2.69.mojave.bottle
+######################################################################## 100.0%
+==> Pouring autoconf-2.69.mojave.bottle.4.tar.gz
+==> Caveats
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/autoconf
+==> Summary
+🍺  /usr/local/Cellar/autoconf/2.69: 71 files, 3.0MB
+==> Downloading https://homebrew.bintray.com/bottles/autojump-22.5.1.mojave.bott
+######################################################################## 100.0%
+==> Pouring autojump-22.5.1.mojave.bottle.tar.gz
+==> Caveats
+Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
+to source the file to update your current session):
+  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+If you use the Fish shell then add the following line to your ~/.config/fish/config.fish:
+  [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/autojump/22.5.1: 20 files, 168.2KB
+==> Downloading https://homebrew.bintray.com/bottles/automake-1.16.1_1.mojave.bo
+######################################################################## 100.0%
+==> Pouring automake-1.16.1_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/automake/1.16.1_1: 131 files, 3.4MB
+==> Downloading https://homebrew.bintray.com/bottles/autossh-1.4f.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring autossh-1.4f.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/autossh/1.4f: 11 files, 75.0KB
+==> Downloading https://homebrew.bintray.com/bottles/bash-completion-1.3_3.mojav
+######################################################################## 100.0%
+==> Pouring bash-completion-1.3_3.mojave.bottle.tar.gz
+==> Caveats
+Add the following line to your ~/.bash_profile:
+  [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/bash-completion/1.3_3: 189 files, 607.8KB
+==> Downloading https://homebrew.bintray.com/bottles/bat-0.10.0.mojave.bottle.ta
+######################################################################## 100.0%
+==> Pouring bat-0.10.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/bat/0.10.0: 6 files, 5.4MB
+==> Installing dependencies for cairo: libpng, freetype, fontconfig and pixman
+==> Installing cairo dependency: libpng
+==> Downloading https://homebrew.bintray.com/bottles/libpng-1.6.36.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libpng-1.6.36.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libpng/1.6.36: 27 files, 1.2MB
+==> Installing cairo dependency: freetype
+==> Downloading https://homebrew.bintray.com/bottles/freetype-2.10.0.mojave.bott
+######################################################################## 100.0%
+==> Pouring freetype-2.10.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/freetype/2.10.0: 61 files, 2.3MB
+==> Installing cairo dependency: fontconfig
+==> Downloading https://homebrew.bintray.com/bottles/fontconfig-2.13.1.mojave.bo
+######################################################################## 100.0%
+==> Pouring fontconfig-2.13.1.mojave.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /usr/local/Cellar/fontconfig/2.13.1/bin/fc-cache -frv
+🍺  /usr/local/Cellar/fontconfig/2.13.1: 531 files, 3.3MB
+==> Installing cairo dependency: pixman
+==> Downloading https://homebrew.bintray.com/bottles/pixman-0.38.0.mojave.bottle
+######################################################################## 100.0%
+==> Pouring pixman-0.38.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pixman/0.38.0: 13 files, 1.3MB
+==> Installing cairo
+==> Downloading https://homebrew.bintray.com/bottles/cairo-1.16.0.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring cairo-1.16.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/cairo/1.16.0: 117 files, 5.5MB
+==> Installing dependencies for cloog: gmp
+==> Installing cloog dependency: gmp
+==> Downloading https://homebrew.bintray.com/bottles/gmp-6.1.2_2.mojave.bottle.1
+######################################################################## 100.0%
+==> Pouring gmp-6.1.2_2.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/gmp/6.1.2_2: 18 files, 3.1MB
+==> Installing cloog
+==> Downloading https://homebrew.bintray.com/bottles/cloog-0.18.4_3.mojave.bottl
+######################################################################## 100.0%
+==> Pouring cloog-0.18.4_3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/cloog/0.18.4_3: 110 files, 4.2MB
+==> Downloading https://homebrew.bintray.com/bottles/dnscrypt-proxy-2.0.21.mojav
+######################################################################## 100.0%
+==> Pouring dnscrypt-proxy-2.0.21.mojave.bottle.tar.gz
+==> Caveats
+After starting dnscrypt-proxy, you will need to point your
+local DNS server to 127.0.0.1. You can do this by going to
+System Preferences > "Network" and clicking the "Advanced..."
+button for your interface. You will see a "DNS" tab where you
+can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
+
+By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
+balancing traffic across a set of resolvers. If you would like to
+change these settings, you will have to edit the configuration file:
+  /usr/local/etc/dnscrypt-proxy.toml
+
+To check that dnscrypt-proxy is working correctly, open Terminal and enter the
+following command. Replace en1 with whatever network interface you're using:
+
+  sudo tcpdump -i en1 -vvv 'port 443'
+
+You should see a line in the result that looks like this:
+
+ resolver.dnscrypt.info
+
+To have launchd start dnscrypt-proxy now and restart at startup:
+  sudo brew services start dnscrypt-proxy
+==> Summary
+🍺  /usr/local/Cellar/dnscrypt-proxy/2.0.21: 12 files, 12.9MB
+==> Downloading https://homebrew.bintray.com/bottles/fd-7.3.0.mojave.bottle.tar.
+######################################################################## 100.0%
+==> Pouring fd-7.3.0.mojave.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+fish completions have been installed to:
+  /usr/local/share/fish/vendor_completions.d
+==> Summary
+🍺  /usr/local/Cellar/fd/7.3.0: 9 files, 2.5MB
+==> Installing dependencies for gcc: isl, mpfr and libmpc
+==> Installing gcc dependency: isl
+==> Downloading https://homebrew.bintray.com/bottles/isl-0.20.mojave.bottle.tar.
+######################################################################## 100.0%
+==> Pouring isl-0.20.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/isl/0.20: 71 files, 3.9MB
+==> Installing gcc dependency: mpfr
+==> Downloading https://homebrew.bintray.com/bottles/mpfr-4.0.2.mojave.bottle.ta
+######################################################################## 100.0%
+==> Pouring mpfr-4.0.2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/mpfr/4.0.2: 28 files, 4.7MB
+==> Installing gcc dependency: libmpc
+==> Downloading https://homebrew.bintray.com/bottles/libmpc-1.1.0.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring libmpc-1.1.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libmpc/1.1.0: 12 files, 354KB
+==> Installing gcc
+==> Downloading https://homebrew.bintray.com/bottles/gcc-8.3.0.mojave.bottle.tar
+######################################################################## 100.0%
+==> Pouring gcc-8.3.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/gcc/8.3.0: 1,413 files, 288.6MB
+==> Installing dependencies for gdk-pixbuf: jpeg and libtiff
+==> Installing gdk-pixbuf dependency: jpeg
+==> Downloading https://homebrew.bintray.com/bottles/jpeg-9c.mojave.bottle.tar.g
+######################################################################## 100.0%
+==> Pouring jpeg-9c.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/jpeg/9c: 21 files, 733.4KB
+==> Installing gdk-pixbuf dependency: libtiff
+==> Downloading https://homebrew.bintray.com/bottles/libtiff-4.0.10_1.mojave.bot
+######################################################################## 100.0%
+==> Pouring libtiff-4.0.10_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libtiff/4.0.10_1: 246 files, 3.5MB
+==> Installing gdk-pixbuf
+==> Downloading https://homebrew.bintray.com/bottles/gdk-pixbuf-2.38.1.mojave.bo
+######################################################################## 100.0%
+==> Pouring gdk-pixbuf-2.38.1.mojave.bottle.tar.gz
+==> /usr/local/Cellar/gdk-pixbuf/2.38.1/bin/gdk-pixbuf-query-loaders --update-ca
+🍺  /usr/local/Cellar/gdk-pixbuf/2.38.1: 149 files, 3.2MB
+==> Downloading https://homebrew.bintray.com/bottles/geckodriver-0.24.0.mojave.b
+######################################################################## 100.0%
+==> Pouring geckodriver-0.24.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/geckodriver/0.24.0: 7 files, 5.9MB
+==> Downloading https://homebrew.bintray.com/bottles/git-2.21.0.mojave.bottle.ta
+######################################################################## 100.0%
+==> Pouring git-2.21.0.mojave.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Summary
+🍺  /usr/local/Cellar/git/2.21.0: 1,530 files, 42MB
+==> Downloading https://homebrew.bintray.com/bottles/gnu-sed-4.7.mojave.bottle.2
+######################################################################## 100.0%
+==> Pouring gnu-sed-4.7.mojave.bottle.2.tar.gz
+==> Caveats
+GNU "sed" has been installed as "gsed".
+If you need to use it as "sed", you can add a "gnubin" directory
+to your PATH from your bashrc like:
+
+    PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+==> Summary
+🍺  /usr/local/Cellar/gnu-sed/4.7: 12 files, 561KB
+==> Installing dependencies for gobject-introspection: pkg-config
+==> Installing gobject-introspection dependency: pkg-config
+==> Downloading https://homebrew.bintray.com/bottles/pkg-config-0.29.2.mojave.bo
+######################################################################## 100.0%
+==> Pouring pkg-config-0.29.2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.29.2: 11 files, 627.2KB
+==> Installing gobject-introspection
+==> Downloading https://homebrew.bintray.com/bottles/gobject-introspection-1.60.
+######################################################################## 100.0%
+==> Pouring gobject-introspection-1.60.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/gobject-introspection/1.60.0: 189 files, 11.8MB
+==> Downloading https://homebrew.bintray.com/bottles/graphite2-1.3.13.mojave.bot
+######################################################################## 100.0%
+==> Pouring graphite2-1.3.13.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/graphite2/1.3.13: 18 files, 232KB
+==> Installing dependencies for gtk+: hicolor-icon-theme, fribidi, harfbuzz and pango
+==> Installing gtk+ dependency: hicolor-icon-theme
+==> Downloading https://homebrew.bintray.com/bottles/hicolor-icon-theme-0.17.moj
+######################################################################## 100.0%
+==> Pouring hicolor-icon-theme-0.17.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/hicolor-icon-theme/0.17: 7 files, 77.1KB
+==> Installing gtk+ dependency: fribidi
+==> Downloading https://homebrew.bintray.com/bottles/fribidi-1.0.5.mojave.bottle
+######################################################################## 100.0%
+==> Pouring fribidi-1.0.5.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/fribidi/1.0.5: 66 files, 581.3KB
+==> Installing gtk+ dependency: harfbuzz
+==> Downloading https://homebrew.bintray.com/bottles/harfbuzz-2.3.1.mojave.bottl
+######################################################################## 100.0%
+==> Pouring harfbuzz-2.3.1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/harfbuzz/2.3.1: 180 files, 9.5MB
+==> Installing gtk+ dependency: pango
+==> Downloading https://homebrew.bintray.com/bottles/pango-1.42.4_1.mojave.bottl
+######################################################################## 100.0%
+==> Pouring pango-1.42.4_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pango/1.42.4_1: 106 files, 4.4MB
+==> Installing gtk+
+==> Downloading https://homebrew.bintray.com/bottles/gtk+-2.24.32_2.mojave.bottl
+######################################################################## 100.0%
+==> Pouring gtk -2.24.32_2.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/gtk+/2.24.32_2: 1,194 files, 58.5MB
+==> Installing dependencies for gtksourceview: gsettings-desktop-schemas, libepoxy, gtk+3, python@2, py2cairo, pygobject, pygtk and gtk-mac-integration
+==> Installing gtksourceview dependency: gsettings-desktop-schemas
+==> Downloading https://homebrew.bintray.com/bottles/gsettings-desktop-schemas-3
+######################################################################## 100.0%
+==> Pouring gsettings-desktop-schemas-3.32.0.mojave.bottle.tar.gz
+==> /usr/local/opt/glib/bin/glib-compile-schemas /usr/local/share/glib-2.0/schem
+🍺  /usr/local/Cellar/gsettings-desktop-schemas/3.32.0: 96 files, 4MB
+==> Installing gtksourceview dependency: libepoxy
+==> Downloading https://homebrew.bintray.com/bottles/libepoxy-1.5.3.mojave.bottl
+######################################################################## 100.0%
+==> Pouring libepoxy-1.5.3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libepoxy/1.5.3: 10 files, 3.1MB
+==> Installing gtksourceview dependency: gtk+3
+==> Downloading https://homebrew.bintray.com/bottles/gtk+3-3.24.7.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring gtk 3-3.24.7.mojave.bottle.tar.gz
+==> /usr/local/opt/glib/bin/glib-compile-schemas /usr/local/share/glib-2.0/schem
+🍺  /usr/local/Cellar/gtk+3/3.24.7: 1,381 files, 73MB
+==> Installing gtksourceview dependency: python@2
+==> Downloading https://homebrew.bintray.com/bottles/python@2-2.7.16.mojave.bott
+######################################################################## 100.0%
+==> Pouring python@2-2.7.16.mojave.bottle.tar.gz
+==> /usr/local/Cellar/python@2/2.7.16/bin/python -s setup.py --no-user-cfg insta
+==> /usr/local/Cellar/python@2/2.7.16/bin/python -s setup.py --no-user-cfg insta
+==> /usr/local/Cellar/python@2/2.7.16/bin/python -s setup.py --no-user-cfg insta
+==> Caveats
+Pip and setuptools have been installed. To update them
+  pip install --upgrade pip setuptools
+
+You can install Python packages with
+  pip install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python2.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /usr/local/Cellar/python@2/2.7.16: 4,734 files, 83.2MB
+==> Installing gtksourceview dependency: py2cairo
+==> Downloading https://homebrew.bintray.com/bottles/py2cairo-1.18.0.mojave.bott
+######################################################################## 100.0%
+==> Pouring py2cairo-1.18.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/py2cairo/1.18.0: 16 files, 268KB
+==> Installing gtksourceview dependency: pygobject
+==> Downloading https://homebrew.bintray.com/bottles/pygobject-2.28.7_1.mojave.b
+######################################################################## 100.0%
+==> Pouring pygobject-2.28.7_1.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/pygobject/2.28.7_1: 140 files, 3.2MB
+==> Installing gtksourceview dependency: pygtk
+==> Downloading https://homebrew.bintray.com/bottles/pygtk-2.24.0_2.mojave.bottl
+######################################################################## 100.0%
+==> Pouring pygtk-2.24.0_2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pygtk/2.24.0_2: 591 files, 15.4MB
+==> Installing gtksourceview dependency: gtk-mac-integration
+==> Downloading https://homebrew.bintray.com/bottles/gtk-mac-integration-2.1.3.m
+######################################################################## 100.0%
+==> Pouring gtk-mac-integration-2.1.3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/gtk-mac-integration/2.1.3: 55 files, 339.3KB
+==> Installing gtksourceview
+==> Downloading https://homebrew.bintray.com/bottles/gtksourceview-2.10.5_3.moja
+######################################################################## 100.0%
+==> Pouring gtksourceview-2.10.5_3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/gtksourceview/2.10.5_3: 230 files, 4.6MB
+==> Downloading https://homebrew.bintray.com/bottles/httpie-1.0.2.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring httpie-1.0.2.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/httpie/1.0.2: 899 files, 10.5MB
+==> Installing dependencies for imagemagick: libde265, shared-mime-info, x265, libheif, libomp, libtool, little-cms2, ilmbase, openexr, openjpeg and webp
+==> Installing imagemagick dependency: libde265
+==> Downloading https://homebrew.bintray.com/bottles/libde265-1.0.3.mojave.bottl
+######################################################################## 100.0%
+==> Pouring libde265-1.0.3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libde265/1.0.3: 22 files, 2MB
+==> Installing imagemagick dependency: shared-mime-info
+==> Downloading https://homebrew.bintray.com/bottles/shared-mime-info-1.12.mojav
+######################################################################## 100.0%
+==> Pouring shared-mime-info-1.12.mojave.bottle.tar.gz
+==> /usr/local/Cellar/shared-mime-info/1.12/bin/update-mime-database /usr/local/
+🍺  /usr/local/Cellar/shared-mime-info/1.12: 85 files, 4.4MB
+==> Installing imagemagick dependency: x265
+==> Downloading https://homebrew.bintray.com/bottles/x265-3.0.mojave.bottle.tar.
+######################################################################## 100.0%
+==> Pouring x265-3.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/x265/3.0: 11 files, 35.3MB
+==> Installing imagemagick dependency: libheif
+==> Downloading https://homebrew.bintray.com/bottles/libheif-1.4.0.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libheif-1.4.0.mojave.bottle.1.tar.gz
+==> /usr/local/opt/shared-mime-info/bin/update-mime-database /usr/local/share/mi
+🍺  /usr/local/Cellar/libheif/1.4.0: 19 files, 2.2MB
+==> Installing imagemagick dependency: libomp
+==> Downloading https://homebrew.bintray.com/bottles/libomp-7.0.0.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring libomp-7.0.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libomp/7.0.0: 12 files, 1.2MB
+==> Installing imagemagick dependency: libtool
+==> Downloading https://homebrew.bintray.com/bottles/libtool-2.4.6_1.mojave.bott
+######################################################################## 100.0%
+==> Pouring libtool-2.4.6_1.mojave.bottle.tar.gz
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> Summary
+🍺  /usr/local/Cellar/libtool/2.4.6_1: 71 files, 3.7MB
+==> Installing imagemagick dependency: little-cms2
+==> Downloading https://homebrew.bintray.com/bottles/little-cms2-2.9.mojave.bott
+######################################################################## 100.0%
+==> Pouring little-cms2-2.9.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/little-cms2/2.9: 18 files, 1MB
+==> Installing imagemagick dependency: ilmbase
+==> Downloading https://homebrew.bintray.com/bottles/ilmbase-2.2.1.mojave.bottle
+######################################################################## 100.0%
+==> Pouring ilmbase-2.2.1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/ilmbase/2.2.1: 353 files, 5.6MB
+==> Installing imagemagick dependency: openexr
+==> Downloading https://homebrew.bintray.com/bottles/openexr-2.2.0_1.mojave.bott
+######################################################################## 100.0%
+==> Pouring openexr-2.2.0_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/openexr/2.2.0_1: 132 files, 11.0MB
+==> Installing imagemagick dependency: openjpeg
+==> Downloading https://homebrew.bintray.com/bottles/openjpeg-2.3.0.mojave.bottl
+######################################################################## 100.0%
+==> Pouring openjpeg-2.3.0.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/openjpeg/2.3.0: 516 files, 12.8MB
+==> Installing imagemagick dependency: webp
+==> Downloading https://homebrew.bintray.com/bottles/webp-1.0.2.mojave.bottle.ta
+######################################################################## 100.0%
+==> Pouring webp-1.0.2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/webp/1.0.2: 39 files, 2.1MB
+==> Installing imagemagick
+==> Downloading https://homebrew.bintray.com/bottles/imagemagick-7.0.8-34.mojave
+######################################################################## 100.0%
+==> Pouring imagemagick-7.0.8-34.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/imagemagick/7.0.8-34: 1,477 files, 23.6MB
+==> Downloading https://homebrew.bintray.com/bottles/intltool-0.51.0.mojave.bott
+######################################################################## 100.0%
+==> Pouring intltool-0.51.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/intltool/0.51.0: 20 files, 186.5KB
+==> Downloading https://homebrew.bintray.com/bottles/libcroco-0.6.12.mojave.bott
+######################################################################## 100.0%
+==> Pouring libcroco-0.6.12.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libcroco/0.6.12: 80 files, 1.7MB
+==> Downloading https://homebrew.bintray.com/bottles/libevent-2.1.8.mojave.bottl
+######################################################################## 100.0%
+==> Pouring libevent-2.1.8.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libevent/2.1.8: 846 files, 2.2MB
+==> Downloading https://homebrew.bintray.com/bottles/libgpg-error-1.36.mojave.bo
+######################################################################## 100.0%
+==> Pouring libgpg-error-1.36.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libgpg-error/1.36: 26 files, 856KB
+==> Downloading https://homebrew.bintray.com/bottles/libksba-1.3.5.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libksba-1.3.5.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libksba/1.3.5: 14 files, 344.2KB
+==> Downloading https://homebrew.bintray.com/bottles/librsvg-2.44.13.mojave.bott
+######################################################################## 100.0%
+==> Pouring librsvg-2.44.13.mojave.bottle.tar.gz
+==> /usr/local/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache
+🍺  /usr/local/Cellar/librsvg/2.44.13: 45 files, 86.5MB
+==> Downloading https://homebrew.bintray.com/bottles/libsodium-1.0.17.mojave.bot
+######################################################################## 100.0%
+==> Pouring libsodium-1.0.17.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libsodium/1.0.17: 71 files, 974.7KB
+==> Downloading https://homebrew.bintray.com/bottles/libyaml-0.2.2.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libyaml-0.2.2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libyaml/0.2.2: 9 files, 291.6KB
+==> Downloading https://homebrew.bintray.com/bottles/makedepend-1.0.5.mojave.bot
+######################################################################## 100.0%
+==> Pouring makedepend-1.0.5.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/makedepend/1.0.5: 8 files, 74.7KB
+==> Installing dependencies for mosh: protobuf
+==> Installing mosh dependency: protobuf
+==> Downloading https://homebrew.bintray.com/bottles/protobuf-3.7.0.mojave.bottl
+######################################################################## 100.0%
+==> Pouring protobuf-3.7.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/protobuf/3.7.0: 374 files, 22.0MB
+==> Installing mosh
+==> Downloading https://homebrew.bintray.com/bottles/mosh-1.3.2_5.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring mosh-1.3.2_5.mojave.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/mosh/1.3.2_5: 14 files, 876.5KB
+==> Downloading https://homebrew.bintray.com/bottles/mongodb-4.0.3_1.mojave.bott
+######################################################################## 100.0%
+==> Pouring mongodb-4.0.3_1.mojave.bottle.tar.gz
+==> Caveats
+To restart mongodb after an upgrade:
+  brew services restart mongodb
+Or, if you don't want/need a background service you can just run:
+  mongod --config /usr/local/etc/mongod.conf
+==> Summary
+🍺  /usr/local/Cellar/mongodb/4.0.3_1: 18 files, 258.1MB
+==> Downloading https://homebrew.bintray.com/bottles/mysql-8.0.15.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring mysql-8.0.15.mojave.bottle.tar.gz
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.0.15: 267 files, 234.6MB
+==> Downloading https://homebrew.bintray.com/bottles/ncdu-1.14.mojave.bottle.tar
+######################################################################## 100.0%
+==> Pouring ncdu-1.14.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/ncdu/1.14: 7 files, 95.5KB
+==> Downloading https://homebrew.bintray.com/bottles/ossp-uuid-1.6.2_2.mojave.bo
+######################################################################## 100.0%
+==> Pouring ossp-uuid-1.6.2_2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/ossp-uuid/1.6.2_2: 18 files, 201.7KB
+==> Downloading https://homebrew.bintray.com/bottles/pipenv-2018.11.26_2.mojave.
+######################################################################## 100.0%
+==> Pouring pipenv-2018.11.26_2.mojave.bottle.tar.gz
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink bin/pipenv
+Target /usr/local/bin/pipenv
+already exists. You may want to remove it:
+  rm '/usr/local/bin/pipenv'
+
+To force the link and overwrite all conflicting files:
+  brew link --overwrite pipenv
+
+To list all files that would be deleted:
+  brew link --overwrite --dry-run pipenv
+
+Possible conflicting files are:
+/usr/local/bin/pipenv
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/pipenv/2018.11.26_2: 1,455 files, 19.7MB
+==> Downloading https://homebrew.bintray.com/bottles/popt-1.16.mojave.bottle.1.t
+######################################################################## 100.0%
+==> Pouring popt-1.16.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/popt/1.16: 11 files, 156.6KB
+==> Downloading https://homebrew.bintray.com/bottles/postgresql-11.2.mojave.bott
+######################################################################## 100.0%
+==> Pouring postgresql-11.2.mojave.bottle.tar.gz
+==> Caveats
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+==> Summary
+🍺  /usr/local/Cellar/postgresql/11.2: 3,186 files, 35.4MB
+==> Downloading https://homebrew.bintray.com/bottles/privoxy-3.0.26.mojave.bottl
+######################################################################## 100.0%
+==> Pouring privoxy-3.0.26.mojave.bottle.1.tar.gz
+==> Caveats
+To have launchd start privoxy now and restart at login:
+  brew services start privoxy
+Or, if you don't want/need a background service you can just run:
+  privoxy /usr/local/etc/privoxy/config
+==> Summary
+🍺  /usr/local/Cellar/privoxy/3.0.26: 99 files, 2.2MB
+==> Downloading https://homebrew.bintray.com/bottles/proxychains-ng-4.14.mojave.
+######################################################################## 100.0%
+==> Pouring proxychains-ng-4.14.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/proxychains-ng/4.14: 9 files, 79KB
+==> Downloading https://homebrew.bintray.com/bottles/pv-1.6.6.mojave.bottle.tar.
+######################################################################## 100.0%
+==> Pouring pv-1.6.6.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pv/1.6.6: 5 files, 75.5KB
+==> Downloading https://homebrew.bintray.com/bottles/pyenv-1.2.9.mojave.bottle.t
+######################################################################## 100.0%
+==> Pouring pyenv-1.2.9.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pyenv/1.2.9: 619 files, 2.4MB
+==> Downloading https://homebrew.bintray.com/bottles/pygtksourceview-2.10.1_3.mo
+######################################################################## 100.0%
+==> Pouring pygtksourceview-2.10.1_3.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/pygtksourceview/2.10.1_3: 10 files, 267.3KB
+==> Downloading https://homebrew.bintray.com/bottles/rarian-0.8.1.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring rarian-0.8.1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/rarian/0.8.1: 53 files, 652.5KB
+==> Downloading https://homebrew.bintray.com/bottles/redis-5.0.4.mojave.bottle.t
+######################################################################## 100.0%
+==> Pouring redis-5.0.4.mojave.bottle.tar.gz
+==> Caveats
+To restart redis after an upgrade:
+  brew services restart redis
+Or, if you don't want/need a background service you can just run:
+  redis-server /usr/local/etc/redis.conf
+==> Summary
+🍺  /usr/local/Cellar/redis/5.0.4: 13 files, 3.1MB
+==> Downloading https://homebrew.bintray.com/bottles/s-lang-2.3.1a.mojave.bottle
+######################################################################## 100.0%
+==> Pouring s-lang-2.3.1a.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/s-lang/2.3.1a: 160 files, 2.9MB
+==> Downloading https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.9
+######################################################################## 100.0%
+🍺  /usr/local/Cellar/ssh-copy-id/7.9p1: 8 files, 338.1KB, built in 14 seconds
+==> Downloading https://homebrew.bintray.com/bottles/the_silver_searcher-2.2.0.m
+######################################################################## 100.0%
+==> Pouring the_silver_searcher-2.2.0.mojave.bottle.tar.gz
+==> Caveats
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> Summary
+🍺  /usr/local/Cellar/the_silver_searcher/2.2.0: 10 files, 117.6KB
+==> Downloading https://homebrew.bintray.com/bottles/tmux-2.8.mojave.bottle.tar.
+######################################################################## 100.0%
+==> Pouring tmux-2.8.mojave.bottle.tar.gz
+==> Caveats
+Example configuration has been installed to:
+  /usr/local/opt/tmux/share/tmux
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> Summary
+🍺  /usr/local/Cellar/tmux/2.8: 10 files, 709.5KB
+==> Installing dependencies for wget: libunistring and libidn2
+==> Installing wget dependency: libunistring
+==> Downloading https://homebrew.bintray.com/bottles/libunistring-0.9.10.mojave.
+######################################################################## 100.0%
+==> Pouring libunistring-0.9.10.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/0.9.10: 54 files, 4.4MB
+==> Installing wget dependency: libidn2
+==> Downloading https://homebrew.bintray.com/bottles/libidn2-2.1.1a.mojave.bottl
+######################################################################## 100.0%
+==> Pouring libidn2-2.1.1a.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.1.1a: 69 files, 691.8KB
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.20.1_4.mojave.bottle
+######################################################################## 100.0%
+==> Pouring wget-1.20.1_4.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.20.1_4: 49 files, 3.9MB
+==> Caveats
+==> gettext
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.bash_profile
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> libffi
+libffi is keg-only, which means it was not symlinked into /usr/local,
+because some formulae require a newer version of libffi.
+
+For compilers to find libffi you may need to set:
+  export LDFLAGS="-L/usr/local/opt/libffi/lib"
+
+For pkg-config to find libffi you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+
+==> autoconf
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/autoconf
+==> autojump
+Add the following line to your ~/.bash_profile or ~/.zshrc file (and remember
+to source the file to update your current session):
+  [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+If you use the Fish shell then add the following line to your ~/.config/fish/config.fish:
+  [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> bash-completion
+Add the following line to your ~/.bash_profile:
+  [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> dnscrypt-proxy
+After starting dnscrypt-proxy, you will need to point your
+local DNS server to 127.0.0.1. You can do this by going to
+System Preferences > "Network" and clicking the "Advanced..."
+button for your interface. You will see a "DNS" tab where you
+can click "+" and enter 127.0.0.1 in the "DNS Servers" section.
+
+By default, dnscrypt-proxy runs on localhost (127.0.0.1), port 53,
+balancing traffic across a set of resolvers. If you would like to
+change these settings, you will have to edit the configuration file:
+  /usr/local/etc/dnscrypt-proxy.toml
+
+To check that dnscrypt-proxy is working correctly, open Terminal and enter the
+following command. Replace en1 with whatever network interface you're using:
+
+  sudo tcpdump -i en1 -vvv 'port 443'
+
+You should see a line in the result that looks like this:
+
+ resolver.dnscrypt.info
+
+To have launchd start dnscrypt-proxy now and restart at startup:
+  sudo brew services start dnscrypt-proxy
+==> fd
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+fish completions have been installed to:
+  /usr/local/share/fish/vendor_completions.d
+==> git
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions and functions have been installed to:
+  /usr/local/share/zsh/site-functions
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> gnu-sed
+GNU "sed" has been installed as "gsed".
+If you need to use it as "sed", you can add a "gnubin" directory
+to your PATH from your bashrc like:
+
+    PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+==> python@2
+Pip and setuptools have been installed. To update them
+  pip install --upgrade pip setuptools
+
+You can install Python packages with
+  pip install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python2.7/site-packages
+
+See: https://docs.brew.sh/Homebrew-and-Python
+==> libtool
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> mosh
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+==> mongodb
+To restart mongodb after an upgrade:
+  brew services restart mongodb
+Or, if you don't want/need a background service you can just run:
+  mongod --config /usr/local/etc/mongod.conf
+==> mysql
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+==> pipenv
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> postgresql
+To migrate existing data from a previous major version of PostgreSQL run:
+  brew postgresql-upgrade-database
+
+To have launchd start postgresql now and restart at login:
+  brew services start postgresql
+Or, if you don't want/need a background service you can just run:
+  pg_ctl -D /usr/local/var/postgres start
+==> privoxy
+To have launchd start privoxy now and restart at login:
+  brew services start privoxy
+Or, if you don't want/need a background service you can just run:
+  privoxy /usr/local/etc/privoxy/config
+==> redis
+To restart redis after an upgrade:
+  brew services restart redis
+Or, if you don't want/need a background service you can just run:
+  redis-server /usr/local/etc/redis.conf
+==> the_silver_searcher
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completions have been installed to:
+  /usr/local/share/zsh/site-functions
+==> tmux
+Example configuration has been installed to:
+  /usr/local/opt/tmux/share/tmux
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+(de) too@P2:~$

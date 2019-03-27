@@ -1,0 +1,201 @@
+Alfred 3.app
+AliWangwang.app
+Android Studio.app
+App Store.app
+Application Loader.app
+Aptana Studio 3
+Audacity
+Audio Hijack.app
+Automator.app
+BOINCManager.app
+Backup and Sync.app
+Battle.net.app
+Be Focused Pro.app
+Be Focused.app
+BearyChat.app
+Bilibili.app
+Blackmagic Disk Speed Test.app
+BombSquad.app
+Boostnote.app
+Brackets.app
+Caffeine.app
+Calculator.app
+Calendar.app
+Charles.app
+CheatSheet.app
+Chess.app
+Contacts.app
+DNSCrypt Menubar.app
+DVD Player.app
+Dash.app
+Dashboard.app
+Dictionary.app
+Discord.app
+Disk Inventory X.app
+Docker
+Docker.app
+Dropbox.app
+Droplr.app
+EIM.app
+Electrum.app
+Emacs.app
+Evernote.app
+FaceTime.app
+Firefox.app
+Flux.app
+Focus Matrix.app
+Folx.app
+Font Book.app
+Found.app
+Game Center.app
+GarageBand.app
+GitHub Desktop.app
+Gitter.app
+GoAgentX.app
+Google Chrome.app
+Google Drive.app
+Google Earth Pro.app
+HSAng.app
+Hearthstone
+IconJar.app
+Image Capture.app
+Install macOS High Sierra.app
+Jietu.app
+Karabiner.app
+Keynote.app
+Kindle.app
+Kitematic (Beta).app
+Klib.app
+LINE.localized
+Lantern.app
+Last.fm.app
+Launchpad.app
+Litecoin-Qt.app
+Logitech
+MP4tools.app
+MPlayer OSX Extended.app
+MPlayerX.app
+MacHg.app
+Mactracker.app
+Mail.app
+MailMaster.app
+Maipo.app
+Manico.app
+Maps.app
+MarsEdit.app
+Memoir.app
+Messages.app
+Microsoft Excel.app
+Microsoft OneNote.app
+Microsoft Outlook.app
+Microsoft PowerPoint.app
+Microsoft Word.app
+MindNode Lite.app
+Mint.app
+MiroVideoConverter.app
+Mission Control.app
+Motion FX.app
+Mou.app
+NetHackGuidebook.app
+NetHackRecover.app
+NetHackTerm.app
+NeteaseMusic.app
+Notes.app
+Notion.app
+Numbers.app
+OTCWallet.app
+OmniFocus.app
+PhoneClean.app
+Photo Booth.app
+Photo Resizer.app
+Photos.app
+Picasa.app
+Pocket.app
+PomoDoneApp.app
+Pomotodo.app
+Postico.app
+Preview.app
+PyCharm CE.app
+PyCharm.app
+QQ.app
+QQLive.app
+QQMusic.app
+QuickTime Player.app
+Quicksilver.app
+Reeder.app
+Reminders.app
+Remote Desktop Connection.app
+RescueTime.app
+Robomongo.app
+SPlayerX.app
+SQLPro for Postgres.app
+Safari.app
+Secrets.app
+Shazam.app
+Skala Preview.app
+Sketch Toolbox.app
+Sketch.app
+Skitch.app
+Skype.app
+Slack.app
+SmartConverter.app
+Snip.app
+Sony Ericsson Bridge for Mac.app
+SourceTree.app
+Spark.app
+Spectacle.app
+StarCraft
+Stay.app
+Steam.app
+Stickies.app
+System Preferences.app
+TeamViewer.app
+Teambition.app
+Telegram.app
+TelegramBeta_data
+Telegreat.app
+TextEdit.app
+The Unarchiver.app
+Things.app
+Thor.app
+Thunder.app
+Time Machine.app
+Todoist.app
+Trello.app
+Twitter.app
+Typist.app
+Typora.app
+Ulysses.app
+Utilities
+VMware Fusion.app
+VOX.app
+Vagrant
+VirtualBox.app
+Visual Studio Code.app
+WeChat.app
+Winclone.app
+Wunderlist.app
+XBMC.app
+XLD.app
+Xcode.app
+Yu Writer.app
+Zenkit.app
+aMule.app
+calibre.app
+draw.io.app
+feedly.app
+huobi.app
+iBooks Author.app
+iBooks.app
+iMovie 9.0.9
+iMovie.app
+iTerm.app
+iThoughtsX.app
+iTunes.app
+pgAdmin 4.app
+幕布.app
+微信web开发者工具.app
+企业微信.app
+虾米音乐.app
+网易有道词典.app
+华西证券网上交易.app

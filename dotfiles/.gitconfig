@@ -1,0 +1,56 @@
+[user]
+	name = Liu Bo
+	email = toolib@gmail.com
+#[github]
+#	user = liubo-1981
+#	token = d93702ee6b66b73141b262d58e7d642c
+[url "git@github.com:"]
+    insteadOf = gh:
+[alias]
+	st = status
+	visual = !gitk
+    last = log -1 HEAD
+    history = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+    ac =  !git add . && git commit -am
+    a = add
+    ap = add -p
+    co = checkout
+    cob = checkout -b
+    d = diff
+    pr = pull --rebase
+    dc = diff --cached
+    cv = commit --verbose
+    ci = commit
+    cam = commit -am
+    s = status -s
+    br = branch
+    hist = log --pretty=format:\"%Cred%h%Creset - %C(blue)%ad%Creset %Cgreen→%Creset %s%C(yellow)%d%Creset %C(magenta)[%an]%Creset\" --graph --date=short
+    unst = reset HEAD
+    la = "!git config -l | grep alias | cut -c 7-"
+[core]
+	autocrlf = input
+	safecrlf = true
+	filemode = false
+	excludesfile = /Users/too/.gitignore_global
+[help]
+	format = web
+[web]
+	browser = ff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[push]
+	default = simple
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[commit]
+	template = /Users/too/.stCommitMsg
+[browser "ff"]
+	cmd = open -a Firefox.app
